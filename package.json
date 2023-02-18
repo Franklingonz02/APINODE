@@ -1,0 +1,17 @@
+{
+  "name": "apidemo02",
+  "version": "1.0.0",
+  "description": "api de prueba UTEC",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2"
+  }
+}
